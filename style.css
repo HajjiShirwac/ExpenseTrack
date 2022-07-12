@@ -1,0 +1,60 @@
+
+
+body{
+    background: darkgray;
+}
+.main{
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    height: 400px;
+    background:whitesmoke ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    text-align: center;
+    color: green;
+}
+
+h1{
+    text-align: center;
+
+}
+
+.text{
+    width: 70%;
+}
+
+.date{
+    width: 30%;
+}
+
+.expense{
+   margin-left: 13rem;
+   background-color: rgb(35, 209, 78);
+   color: white;
+
+}
+
+.table1 th{
+    width: 50%;
+    /* background: yellow; */
+    border: 1px solid black;
+    
+      
+}
+
+.table1 td{
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+}
+
+.table tr{
+    width: 60;
+    
+}
