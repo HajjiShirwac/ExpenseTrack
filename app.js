@@ -1,30 +1,26 @@
 let btnAdd = document.querySelector('button');
 let table = document.querySelector('table');
-
 let nameInput =  document.querySelector("#name");
-let dateInput =  document.querySelector("#date");
 let AmountInput =  document.querySelector("#amount");
+let dateInput =  document.querySelector("#date");
 
 btnAdd.addEventListener('click', ()=>{
      Name = nameInput.value;
-     date = dateInput.value;
      Amount  = AmountInput.value;
-
+     date = dateInput.value;
     let template = `
                 <tr>
                 <th>${Name}</th>
-                <th>${date}</th>
                 <th>${Amount}</th>
+                <th>${date}</th>
                 </tr>
     
     `;
     table.innerHTML += template;
-
     localStorage.setItem('#name', Name);
-    localStorage.setItem('#date', date);
     localStorage.setItem('#amount', Amount);
-
-
-
-
+    localStorage.setItem('#date', date);
+    
 });
+// location.reload();
+//     return false;
